@@ -1,0 +1,66 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ViewMaterialVideoCtl</servlet-name>
+  	<display-name>ViewMaterialVideoCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.elearning.ctl.ViewMaterialVideoCtl</servlet-class>
+  </servlet>
+ 
+ 
+  
+  
+  
+  <servlet-mapping>
+  	<servlet-name>ViewMaterialVideoCtl</servlet-name>
+  	<url-pattern>/ViewMaterialVideoCtl</url-pattern>
+  </servlet-mapping>
+ 
+  
+  
+ 
+ 
+  
+ 
+ 
+  
+<!--  <servlet>
+  	<servlet-name>ImageServlet</servlet-name>
+  	<display-name>ImageServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.elearning.ctl.ImageServlet</servlet-class>
+  </servlet>
+  
+  
+  
+  <servlet-mapping>
+  	<servlet-name>ImageServlet</servlet-name>
+  	<url-pattern>/ImageServlet</url-pattern>
+  </servlet-mapping> -->
+ 
+ 
+  
+  
+  
+ 
+  
+  
+  
+  
+ 
+  
+ 
+ 
+
+
+  <welcome-file-list>
+  <welcome-file>home</welcome-file>
+  </welcome-file-list>
+</web-app>

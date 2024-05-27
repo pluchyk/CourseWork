@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+
+.bg-dark {
+	background-color: #04204e !important;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	font-family: monospace;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-item {
+	margin: 0 15px;
+}
+
+.carousel-caption h5 {
+	position: relative;
+	left: 0;
+	top: 0;
+	bottom: auto;
+	font-size: 28px;
+	color: black;
+}
